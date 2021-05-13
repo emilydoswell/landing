@@ -1,0 +1,47 @@
+/* Your button CSS file */
+.btn{
+  color: white;
+  background-color: transparent;
+  border-radius: 24px;
+  border: 0.2px solid white;
+  padding: 11px 22px;
+}
+
+.btn:hover {
+  color: #a1a1a1;
+  border: 0.2px solid #a1a1a1;
+}
+
+.btn-shopify {
+  color: white;
+  background-color: #272729;
+  padding: 12px 17px;
+  font-weight: normal;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-shopify:hover {
+  background-color: #1a1a1a;
+}
+
+.btn-yours {
+  background-color: #94D0CC;
+  color: #D1D9D9;
+  font-size: 20px;
+  transition: 0.4s;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-yours:hover {
+  background-color: #EEC4C4;
+  color: #F29191;
+}
+
+
